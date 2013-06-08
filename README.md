@@ -19,9 +19,9 @@ To initialize your local repository using the Cyanogemod manifest, use commands 
 
     repo init -u git://github.com/CyanogenMod/android.git -b cm-10.1
 
-    curl -L -o .repo/local_manifests/qinara.xml -O -L https://raw.github.com/UISS-Dev-Team/android_local_qinara/cm-10.1/qinara.xml
+    curl -L -o .repo/local_manifests/qinara.xml -O -L https://raw.github.com/UISS-Dev-Team/android_local_qinara/cm-10.1-dev/qinara.xml
  
-    	( or Download: https://github.com/UISS-Dev-Team/android_local_qinara/blob/cm-10.1/qinara.xml
+    	( or Download: https://github.com/UISS-Dev-Team/android_local_qinara/blob/cm-10.1-dev/qinara.xml
 		and place it in ~/Android/.repo/local_manifest.xml (or ~/'name you chose'/.repo)
 
 Then to sync up:
