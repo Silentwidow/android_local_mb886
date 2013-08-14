@@ -15,13 +15,12 @@ Make a build directory:
 	cd Android (or the name  you chose)
 	mkdir .repo/local_manifests
 
-To initialize your local repository using the Cyanogemod manifest, use commands like these:
+To initialize your local repository using the AOSP manifest, use commands like these:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-10.1
 
-    curl -L -o .repo/local_manifests/qinara.xml -O -L https://raw.github.com/UISS-Dev-Team/android_local_qinara/master/qinara.xml
+    curl -L -o .repo/local_manifests/qinara.xml -O -L https://raw.github.com/UISS-Dev-Team/android_local_qinara/jb-aosp/qinara.xml
  
-    	( or Download: https://github.com/UISS-Dev-Team/android_local_qinara/blob/master/qinara.xml
+    	( or Download: https://github.com/UISS-Dev-Team/android_local_qinara/blob/jb-aosp/qinara.xml
 		and place it in ~/Android/.repo/local_manifest.xml (or ~/'name you chose'/.repo)
 
 Then to sync up:
